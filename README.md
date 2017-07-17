@@ -4,6 +4,11 @@ Looking for a new job is hard. When you are sending out dozens of applications, 
 
 The app pulls essential information and important news for each company by using Bing's API.
 
+**To log in to a sample profile use the following credentials:**
+
+**user:** guest
+**password:** guest
+
 * [Try the app now]
 
 <h3 align="center">
