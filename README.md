@@ -1,94 +1,59 @@
-# Job Search Management Tool
+# Linked List
 
-Job seekers can use this dashboard to plan and manage the entire job application process.
+Looking for a new job is hard. When you are sending out dozens of applications, it can be difficult to keep track of the process. Linked List helps you manage your job search, with its unique dashboard, dedicated to collecting all the relevant information you need about each company you apply to.
 
-## Team
+The app pulls essential information and important news for each company by using Bing's API.
 
-  - __Product Owner__: Thomas O'Connor
-  - __Scrum Master__: Willian Hua
-  - __Development Team Members__: Arturo Ruvalcaba, Joel Camacho
+* [Try the app now]
 
-## Table of Contents
+<h3 align="center">
+  <img src="https://dl.dropboxusercontent.com/s/ppkzuyakjikueev/ll_01.png?dl=0" />
+</h3>
 
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
-    1. [Installing Dependencies](#installing-dependencies)
-    1. [Tasks](#tasks)
-1. [Team](#team)
-1. [Contributing](#contributing)
+* Login to your account or create a new user, all your information is persisted in a MongoDB database
 
-## Usage
-1. Install dependencies (instructions below)
-2. npm start
+<h3 align="center">
+  <img src="https://dl.dropboxusercontent.com/s/dadugk8y6z52qin/ll_02.png?dl=0" />
+</h3>
 
-## Project File Structure
-/ [ root ] 
- 	README.md
- 	package.json
-.gitignore
-/server
-server.js
-   	server.config.js
-	/routes
-routes.js
-/config
-	config.js
-/utils
-	helpers.js
-middleware.js
-/models
-  		 . . .
-/client
-	index.html
-    	style.css
-	/lib
-		. . .
-/assets
-		. . .
-  	/app
-      		app.js
-      		/layout
-	        	topbar.controller.js
-	        	topbar.html
-		sidebar.controller.js
-		sidebar.html
-/dashboard
-dashboard.controller.js
-        	dashboard.html
-	      		/input
-				job-entry.html
-				job-entry.controller.js
-     		/services
-			. . .
-/node_modules
-bower.json
-.bowerrc
+* Create and update job applications easily with the Application Form
 
-## Requirements
+<h3 align="center">
+  <img src="https://dl.dropboxusercontent.com/s/cf5iwn0i5mkd9w8/ll_03.png?dl=0" />
+</h3>
 
-- Node.js latest
-- npm latest
-- bower latest
+* Important information about the company is pulled directly from Bing's Search API and displayed directly on your dashboard
 
-## Development
+<h3 align="center">
+  <img src="https://dl.dropboxusercontent.com/s/zqioti9fz0a30gh/ll_04.png?dl=0" />
+</h3>
 
-### Installing Dependencies
+* Save all the important information you need to be successful in your job search!
 
-From within the root directory:
+<h3 align="center">
+  <img src="https://dl.dropboxusercontent.com/s/w6qgu418ro9ep4o/ll_05.png?dl=0" />
+</h3>
 
-```sh
-sudo npm install -g bower
-npm install
-cd public
-bower install
-cd ..
-```
+* The News Widget bring important news about the companies you are applying to directly to your dashboard
 
-## Contributing
+<h3 align="center">
+  <img src="https://dl.dropboxusercontent.com/s/vfgja94ol0a34so/ll_06.png?dl=0" />
+</h3>
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
+Team
+------
 
-## Style Guide
+* [Arturo Ruvalcaba]
+* [Willian Hua]
+* [Tom O'Connor]
+* [Joel Camacho]
 
-See [STYLE-GUIDE.md](STYLE-GUIDE.md) for style guidelines.
+<!---
+Link References
+-->
+
+[Global AI Hackathon NYC]:https://ai-hackathon-nyc.devpost.com/
+[Try the app now]:https://whyiseveryoneangry.herokuapp.com/
+[Arturo Ruvalcaba]:https://github.com/aruvham
+[David Hamberlin]:https://github.com/dhamberlin
+[Willian Hua]:https://github.com/huawillian

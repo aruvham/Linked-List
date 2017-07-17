@@ -7,7 +7,9 @@ angular.
     `
     <md-card id="signin" class="landingCard" layout-margin>
       <h2>Please Sign In</h2>
-
+      <p>Sample profile:</p>
+      <p>username: guest</p>
+      <p>password: guest</p>
       <form name="signInForm" ng-submit="">
 
         <div layout="row">
